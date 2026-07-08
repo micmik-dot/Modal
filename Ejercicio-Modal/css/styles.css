@@ -1,0 +1,32 @@
+/* Estilos generales de la página */
+body {
+    font-family: sans-serif;
+    padding: 20px;
+    background-color: #e7a8da;
+}
+
+/*Ejercicio:
+/*Agregue la información faltante para crear el modal y el overlay
+
+/* 1. Overlay */
+.modal-overlay {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* 2. La Ventana del Modal */
+.modal-content {
+  background-color: rgb(227, 149, 247);
+    margin: 10% auto;
+    padding: 20px;
+    width: 50%;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+}
